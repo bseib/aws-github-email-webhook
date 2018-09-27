@@ -50,26 +50,26 @@ https://github.com/aws/aws-lambda-go/blob/master/README.md#for-developers-on-win
 
 Once you have created a new AWS Lambda function, just upload the go binary manually:
 
-png
+<img src="doc/aws-lambda-upload-binary.png">
 
 ### Setup Environment Variables
 
-png
+<img src="doc/aws-lambda-environment-vars.png">
 
-| env var               | description |
-|-----------------------|-------------|
-| GITHUB_WEBHOOK_SECRET | This is the shared secret that you will setup on github.com. It will be used for the SHA1 signature of the messages POSTed to the webhook. Something like `openssl rand -hex 32` should generate a secret with sufficient entropy. |
-| RECIPIENTS            | A comma separated list of recipients (no spaces) that will get an email for the GitHub Push Event. Should be a short list. Go the AWS SES Management Console to "whitelist" your recipient's email addresses. |
-| SENDER                | Set this to a legit email address that your emails will be "from". If the GitHub Push Event has a Pusher with a known email address (it shows up in the comma separated list of RECIPIENTS), then SENDER will be set to the person who is doing the push. If no match, then use the value set for SENDER. |
-| SES_AWS_REGION        | To send email with AWS SES, you have to set an AWS region. Pick an appropriate one for you. Should be in the same region as your lambda function. |
+| env var                 | description |
+|-------------------------|-------------|
+| `GITHUB_WEBHOOK_SECRET` | This is the shared secret that you will setup on github.com. It will be used for the SHA1 signature of the messages POSTed to the webhook. Something like `openssl rand -hex 32` should generate a secret with sufficient entropy. |
+| `RECIPIENTS`            | A comma separated list of recipients (no spaces) that will get an email for the GitHub Push Event. Should be a short list. Go the AWS SES Management Console to "whitelist" your recipient's email addresses. |
+| `SENDER`                | Set this to a legit email address that your emails will be "from". If the GitHub Push Event has a Pusher with a known email address (it shows up in the comma separated list of RECIPIENTS), then SENDER will be set to the person who is doing the push. If no match, then use the value set for SENDER. |
+| `SES_AWS_REGION`        | To send email with AWS SES, you have to set an AWS region. Pick an appropriate one for you. Should be in the same region as your lambda function. |
 
 ### Create API Gateway Endpoint
 
-png
+<img src="doc/aws-lambda-endpoint-url.png">
 
 ### Setup Webhook on GitHub
 
-png
+<img src="doc/github-webhook-setup.png">
 
 ## References
 
