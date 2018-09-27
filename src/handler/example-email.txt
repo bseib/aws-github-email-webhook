@@ -1,0 +1,46 @@
+Subject: [bseib/GreatNameRepo] d9fb43: added asdf file
+
+  Branch: refs/heads/master
+  Home:   https://github.com/bseib/GreatNameRepo
+  Commit: d9fb43d489e8fd2f23fbb60a3a815e898697818f
+      https://github.com/bseib/GreatNameRepo/commit/d9fb43d489e8fd2f23fbb60a3a815e898697818f
+  Author: Broc Seib <broc.seib@example.com>
+  Date:   2018-09-26 (Wed, 26 Sep 2018)
+
+  Changed paths:
+    A asdf
+
+  Log Message:
+  -----------
+  added asdf file
+
+
+  Commit: 19c582ada1ecbf22a734b71fa37715de144b77cc
+      https://github.com/bseib/GreatNameRepo/commit/19c582ada1ecbf22a734b71fa37715de144b77cc
+  Author: Broc Seib <broc.seib@example.com>
+  Date:   2018-09-26 (Wed, 26 Sep 2018)
+
+  Changed paths:
+    M foo
+    A ghost
+
+  Log Message:
+  -----------
+  edit one, create one
+
+
+  Commit: b2604d098171893c493361e22d33bbcb4670d512
+      https://github.com/bseib/GreatNameRepo/commit/b2604d098171893c493361e22d33bbcb4670d512
+  Author: Broc Seib <broc.seib@example.com>
+  Date:   2018-09-26 (Wed, 26 Sep 2018)
+
+  Changed paths:
+    M README.md
+    A fresh
+    R ghost
+
+  Log Message:
+  -----------
+  testing multiple commits in one push
+
+We want to see what the JSON structure looks like.

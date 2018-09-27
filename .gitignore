@@ -15,6 +15,6 @@
 # go pkg dir
 pkg/
 
-# binaries we build
-handler
-github_webhook_handler
+# binaries we might build in this dir
+/handler
+/github_webhook_handler

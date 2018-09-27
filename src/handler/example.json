@@ -1,0 +1,155 @@
+{
+  "ref": "refs/heads/master",
+  "commits": [
+    {
+      "message": "added asdf file",
+      "author": {
+        "name": "Broc Seib",
+        "email": "broc.seib@example.com",
+        "username": "bseib"
+      },
+      "url": "https://github.com/bseib/GreatNameRepo/commit/d9fb43d489e8fd2f23fbb60a3a815e898697818f",
+      "distinct": true,
+      "id": "d9fb43d489e8fd2f23fbb60a3a815e898697818f",
+      "tree_id": "10389d065ab30d7c91ae488eff6980693f996312",
+      "timestamp": "2018-09-26T12:31:01-04:00",
+      "committer": {
+        "name": "Broc Seib",
+        "email": "broc.seib@example.com",
+        "username": "bseib"
+      },
+      "added": [
+        "asdf"
+      ]
+    },
+    {
+      "message": "edit one, create one",
+      "author": {
+        "name": "Broc Seib",
+        "email": "broc.seib@example.com",
+        "username": "bseib"
+      },
+      "url": "https://github.com/bseib/GreatNameRepo/commit/19c582ada1ecbf22a734b71fa37715de144b77cc",
+      "distinct": true,
+      "id": "19c582ada1ecbf22a734b71fa37715de144b77cc",
+      "tree_id": "dd1a450d857bafa5479ab9971aafe76b88b6af45",
+      "timestamp": "2018-09-26T12:31:57-04:00",
+      "committer": {
+        "name": "Broc Seib",
+        "email": "broc.seib@example.com",
+        "username": "bseib"
+      },
+      "added": [
+        "ghost"
+      ],
+      "modified": [
+        "foo"
+      ]
+    },
+    {
+      "message": "testing multiple commits in one push\n\nWe want to see what the JSON structure looks like.",
+      "author": {
+        "name": "Broc Seib",
+        "email": "broc.seib@example.com",
+        "username": "bseib"
+      },
+      "url": "https://github.com/bseib/GreatNameRepo/commit/b2604d098171893c493361e22d33bbcb4670d512",
+      "distinct": true,
+      "id": "b2604d098171893c493361e22d33bbcb4670d512",
+      "tree_id": "a512cefbc0b0cabd84fc7fbd416845b0266460c7",
+      "timestamp": "2018-09-26T12:32:54-04:00",
+      "committer": {
+        "name": "Broc Seib",
+        "email": "broc.seib@example.com",
+        "username": "bseib"
+      },
+      "added": [
+        "fresh"
+      ],
+      "removed": [
+        "ghost"
+      ],
+      "modified": [
+        "README.md"
+      ]
+    }
+  ],
+  "before": "124d8ce7ae49d9e46f083bad619eaeb8dcc73b2d",
+  "after": "b2604d098171893c493361e22d33bbcb4670d512",
+  "created": false,
+  "deleted": false,
+  "forced": false,
+  "compare": "https://github.com/bseib/GreatNameRepo/compare/124d8ce7ae49...b2604d098171",
+  "repository": {
+    "id": 103402274,
+    "node_id": "MDEwOlJlcG9zaXRvcnkxMDM0MDIyNzQ=",
+    "name": "GreatNameRepo",
+    "full_name": "bseib/GreatNameRepo",
+    "owner": {
+      "login": "bseib",
+      "id": 9999999,
+      "name": "bseib",
+      "email": "broc.seib@example.com"
+    },
+    "private": true,
+    "description": "This is a test repo",
+    "fork": false,
+    "created_at": "2017-09-13T13:19:09Z",
+    "pushed_at": "2018-09-26T16:33:33Z",
+    "updated_at": "2018-09-26T15:57:25Z",
+    "size": 1,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "has_issues": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "master_branch": "master",
+    "url": "https://github.com/bseib/GreatNameRepo",
+    "archive_url": "https://api.github.com/repos/bseib/GreatNameRepo/{archive_format}{/ref}",
+    "html_url": "https://github.com/bseib/GreatNameRepo",
+    "statuses_url": "https://api.github.com/repos/bseib/GreatNameRepo/statuses/{sha}",
+    "git_url": "git://github.com/bseib/GreatNameRepo.git",
+    "ssh_url": "git@github.com:bseib/GreatNameRepo.git",
+    "clone_url": "https://github.com/bseib/GreatNameRepo.git",
+    "svn_url": "https://github.com/bseib/GreatNameRepo"
+  },
+  "head_commit": {
+    "message": "testing multiple commits in one push\n\nWe want to see what the JSON structure looks like.",
+    "author": {
+      "name": "Broc Seib",
+      "email": "broc.seib@example.com",
+      "username": "bseib"
+    },
+    "url": "https://github.com/bseib/GreatNameRepo/commit/b2604d098171893c493361e22d33bbcb4670d512",
+    "distinct": true,
+    "id": "b2604d098171893c493361e22d33bbcb4670d512",
+    "tree_id": "a512cefbc0b0cabd84fc7fbd416845b0266460c7",
+    "timestamp": "2018-09-26T12:32:54-04:00",
+    "committer": {
+      "name": "Broc Seib",
+      "email": "broc.seib@example.com",
+      "username": "bseib"
+    },
+    "added": [
+      "fresh"
+    ],
+    "removed": [
+      "ghost"
+    ],
+    "modified": [
+      "README.md"
+    ]
+  },
+  "pusher": {
+    "name": "bseib",
+    "email": "broc.seib@example.com"
+  },
+  "sender": {
+    "login": "bseib",
+    "id": 9999999
+  }
+}
