@@ -71,6 +71,13 @@ Once you have created a new AWS Lambda function, just upload the go binary manua
 
 <img src="doc/github-webhook-setup.png">
 
+### Adjust Log Retention Policy
+
+Logs will pile up as the lambda function is called. You should adjust your retention policy accordingly:
+
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Working-with-log-groups-and-streams.html
+
+
 ## References
 
 These two AWS docs show how using Go to send an email via SES, and how to write
