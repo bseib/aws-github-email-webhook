@@ -16,9 +16,10 @@ so I'm sharing the code. Improve it as you see fit.
 
 ## Download the Binary
 
-Here's the link to the `handler.zip` that you can just install on AWS Lambda.
+Here's the link to the `github_webhook_handler.zip` that you can just install
+on AWS Lambda.
 
-     todo link here
+     https://github.com/bseib/aws-github-email-webhook/releases
 
 But of course you shouldn't necessarily trust me, in which case you can build
 your own binary:
@@ -43,14 +44,32 @@ If on windows, build a zip file with proper executable file permissions.
 To build `build-lambda-zip` executable, see:
 https://github.com/aws/aws-lambda-go/blob/master/README.md#for-developers-on-windows
 
+## Setup
 
-## Install the Binary on AWS Lambda
+### Install the Binary on AWS Lambda
 
-todo
+Once you have created a new AWS Lambda function, just upload the go binary manually:
 
-## Setup Environment Variables
+png
 
-todo
+### Setup Environment Variables
+
+png
+
+| env var               | description |
+|-----------------------|-------------|
+| GITHUB_WEBHOOK_SECRET | This is the shared secret that you will setup on github.com. It will be used for the SHA1 signature of the messages POSTed to the webhook. Something like `openssl rand -hex 32` should generate a secret with sufficient entropy. |
+| RECIPIENTS            | A comma separated list of recipients (no spaces) that will get an email for the GitHub Push Event. Should be a short list. Go the AWS SES Management Console to "whitelist" your recipient's email addresses. |
+| SENDER                | Set this to a legit email address that your emails will be "from". If the GitHub Push Event has a Pusher with a known email address (it shows up in the comma separated list of RECIPIENTS), then SENDER will be set to the person who is doing the push. If no match, then use the value set for SENDER. |
+| SES_AWS_REGION        | To send email with AWS SES, you have to set an AWS region. Pick an appropriate one for you. Should be in the same region as your lambda function. |
+
+### Create API Gateway Endpoint
+
+png
+
+### Setup Webhook on GitHub
+
+png
 
 ## References
 
